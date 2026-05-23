@@ -9,7 +9,7 @@ env:
   # 1. Suppress warnings to keep logs clean
   SUPPRESS_LABEL_WARNING: true
 
-  # 2. Mumbai Configuration (Verified)
+  # 2. Phoenix Configuration (Verified)
   OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
   AD_NAME: ${{ secrets.AD_NAME }}
   IMAGE_ID: ${{ secrets.IMAGE_ID }}
